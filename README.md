@@ -1,4 +1,4 @@
-# practice
+# Notepad
 
 A new Flutter project.
 
