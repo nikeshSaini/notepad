@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
             }, icon: Icon(Icons.menu,color: Colors.black,));
           }
         ),
-        title: Text("Notes Title", style: GoogleFonts.roboto(
+        title: Text("Recent Notes", style: GoogleFonts.roboto(
           color: Colors.black,
           fontWeight: FontWeight.w500,
         ),),
