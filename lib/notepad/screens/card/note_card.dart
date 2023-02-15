@@ -21,7 +21,11 @@ Widget noteCard(Function()? onTap, QueryDocumentSnapshot doc ){
           SizedBox(height: 5,),
           // Text(doc["creation_date"], style: AppStyle.dateTime,),
           SizedBox(height: 8,),
-          Text(doc["content"], style: AppStyle.mainContent,),
+          Flexible(
+              child: Text(doc["content"], style: AppStyle.mainContent,
+                overflow: TextOverflow.clip,
+              ),
+          ),
         ],
       ),
     ),
